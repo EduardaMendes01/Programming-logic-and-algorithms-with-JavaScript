@@ -1,0 +1,10 @@
+<!--Challenge 'C': Develop a program for a store, which reads the price of a product and inform the store's payment options. calculate and inform the value for payment in cash with 10% discount and the value in 3 installments -->
+
+<meta charset="UTF-8">
+<script>
+    const price = Number(prompt("Price: "));
+    const cash = price - (price * 0.10);
+    const credit = price / 3 ;
+    const inst = credit.toFixed(2);
+    alert(`Price: Cash ${cash}, or 3x of ${inst}`)
+</script>

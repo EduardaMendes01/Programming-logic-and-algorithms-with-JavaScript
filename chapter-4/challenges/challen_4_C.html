@@ -1,0 +1,42 @@
+<!-- Develop a program to simulate a parking meter, which reads the value of coins deposited in a rotating parking terminal. The program should inform the time, the vehicle has been on site and the change(if any), as in the example. If the value is less than the minimum time, display the message: "Insufficient Value". Consider the values/times in the table(Max is 120):-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/book_cover.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/challen_4_C_style.css">
+    <title>Challenge 4_C</title>
+</head>
+<body>
+    <img src="../images/exerc.jpg" alt="Laptop">
+    <h1>Parking Meter</h1>
+    <table>
+        <tr>
+            <th>Price($):</th>
+            <th>Time(min):</th>
+        </tr>
+        <tr>
+            <td>1.00</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>1.75</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>3.00</td>
+            <td>120</td>
+        </tr>
+    </table>
+    <form>
+        <p>Price($):
+            <input type="number" id="inPrice" step="0.01">
+        </p>
+        <input type="submit" value="Confirm deposit">
+    </form>
+    <h2></h2>
+    <h3></h3>
+    <script src="../js/challen_4_C.js"></script>
+</body>
+</html>

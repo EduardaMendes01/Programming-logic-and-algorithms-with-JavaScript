@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5_4</title>
+</head>
+<body>
+    <script>
+        alert("Enter 0 to leave")
+        do{
+            const num = Number(prompt("Number: "))
+            if(num == 0 || isNaN(num)){
+                const leave = confirm("Confirm Leave?")
+                if(leave){
+                    break
+                } else{
+                    continue
+                }
+            }
+            if(num % 2 == 0){
+                alert(`Double of ${num} is: ${num * 2}`)
+            } else{
+                alert(`Triple of ${num} is: ${num * 3}`)
+            }
+        } while(true)
+        alert("Bye, bye...")
+    </script>
+</body>
+</html>

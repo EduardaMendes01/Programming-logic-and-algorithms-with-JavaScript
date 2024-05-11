@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5_3</title>
+</head>
+<body>
+    <script>
+      let num
+      do{
+        num = Number(prompt("Number: "))
+        if(num == 0 || isNaN(num)){
+        alert("Pleas enter a valid number...")
+        }
+      }while(num == 0 || isNaN(num))
+      let pairs = `Pairs between 1 and ${num}: `
+      for (let i = 2; i <= num; i = i + 2){
+        pairs = pairs + i + ", "
+      }
+      alert(pairs)
+    </script>
+</body>
+</html>

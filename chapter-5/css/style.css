@@ -1,0 +1,18 @@
+img.normal {
+    float: left; 
+    height: 300px; 
+    width: 300px;
+}
+img.tall{
+    float: left;
+    height: 420px;
+    width: 300px;
+}
+
+h1{
+    border-bottom: inset;
+}
+
+pre{
+    font-size: 1.2em;
+}
